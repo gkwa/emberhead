@@ -1,3 +1,3 @@
-FROM python:3.12.0b4-alpine3.17
+FROM python:slim
 
 RUN pip install ansible
